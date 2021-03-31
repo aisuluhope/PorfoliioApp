@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Portfolio App</string>
+    <string name="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</string>
+    <string name="job_name">Graphic Designer</string>
+    <string name="job_name2">Programmer</string>
+    <string name="name">Aisulu Abdraimova</string>
+    <string name="current_job_post">Current Job Post</string>
+    <string name="diploma">Computer Science Diploma</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cvlorem">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using </string>
+    <string name="todo">TODO</string>
+</resources>
