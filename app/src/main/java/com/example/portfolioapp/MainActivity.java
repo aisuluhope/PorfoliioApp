@@ -5,6 +5,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 
 import com.example.portfolioapp.books.BookFragment;
 import com.example.portfolioapp.cv.CVFragment;
@@ -21,6 +23,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements Callback {
 
+
     RecyclerView RecMenu;
     MenuAdapter adapter;
     List<MenuItem> menuItems;
@@ -30,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements Callback {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
@@ -41,6 +43,8 @@ public class MainActivity extends AppCompatActivity implements Callback {
         setRecMenu();
 
     }
+
+
 
     private void setRecMenu(){
         RecMenu = findViewById(R.id.recv_menu);
@@ -80,11 +84,11 @@ public class MainActivity extends AppCompatActivity implements Callback {
             default:setHomeFragment();
         }
 
-
         menuItems.get(selectMenu).setSelected(false);
         menuItems.get(i).setSelected(true);
         selectMenu = i;
         adapter.notifyDataSetChanged();
 
     }
+
 }
